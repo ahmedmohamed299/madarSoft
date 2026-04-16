@@ -54,18 +54,3 @@ The codebase maintains a strong focus on testability, testing different reposito
 - **Turbine:** For easily verifying reactive Kotlin `Flow` emissions and UI states.
 - **kotlinx-coroutines-test:** Handing `runBlocking` and `TestDispatchers` to safely test suspend functions safely.
 
-### How to Run Tests
-To run the local unit tests via command-line:
-```bash
-./gradlew testDebugUnitTest
-```
-
----
-
-## ▶️ Getting Started
-
-1. Clone this repository.
-2. Open the project in **Android Studio** (Ladybug or newer).
-3. Allow Gradle to sync the project dependencies.
-4. Click **Run** (`Shift + F10`) to deploy to a connected physical device or emulator. 
-*(Note: Requires minimum API level 30).*
