@@ -13,7 +13,7 @@ A professional, 2-screen Android application built to demonstrate modern Android
 ## 🛠️ Technology Stack
 
 - **Language:** [Kotlin](https://kotlinlang.org/)
-- **UI:** XML Layouts (No Jetpack Compose) + Material Components
+- **UI:** XML Layouts + Material Components
 - **Architecture:** Clean Architecture (Domain, Data, Presentation) + MVVM pattern
 - **Dependency Injection:** [Dagger-Hilt](https://dagger.dev/hilt/)
 - **Local Database:** [Room Database](https://developer.android.com/training/data-storage/room)
