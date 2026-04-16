@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inputFragment">
+
+    <fragment
+        android:id="@+id/inputFragment"
+        android:name="com.android.madarsoft.presentation.input.InputFragment"
+        android:label="InputFragment"
+        tools:layout="@layout/fragment_input">
+        <action
+            android:id="@+id/action_inputFragment_to_displayFragment"
+            app:destination="@id/displayFragment" />
+    </fragment>
+    
+    <fragment
+        android:id="@+id/displayFragment"
+        android:name="com.android.madarsoft.presentation.display.DisplayFragment"
+        android:label="DisplayFragment"
+        tools:layout="@layout/fragment_display" />
+</navigation>
